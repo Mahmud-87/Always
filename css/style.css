@@ -1,0 +1,86 @@
+/* Univercel seolector */
+*{
+  margin:0;
+  padding:0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+}
+/* name selector */
+body {
+  background-color: rgb(18,18,95);
+}
+/* Id selector */
+#admin-box {
+  background-color: rgba(221, 218, 47, 0.446);
+  color:#fdfdfd;
+  width:50%;
+  margin:10% auto;
+  padding:25px;
+  text-align: center;
+}
+/* decedent selector */
+#admin-box h1 {
+  font-size: 25px;;
+  line-height: 35px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+#admin-box img {
+  display: block;
+  text-align: center;
+  width: 75px;
+  margin: auto;
+}
+/* Grouping Selector */
+input,
+label {
+  display: block;
+}
+form{
+  margin-top: 28px;
+}
+label {
+line-height: 10px;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+input {
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid rgb(0, 0, 0);
+}
+/* Psudo element selector */
+input::placeholder {
+  color:rgb(253, 253, 253);
+}
+/* Attribute selector */
+input[type="submit"]{
+  width: 50%;
+  margin: 20px auto;
+  transition: ease-in 0.8s;
+  text-transform: uppercase;
+}
+/* psudo classs */
+input[type="submit"]:hover {
+  background-color: rgb(37, 200, 218);
+  color: rgb(178, 25, 230);
+}
+/* class selector */
+.pg {
+  font-size: 17px;
+  line-height: 17px;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.pg a {
+  text-transform: capitalize;
+}
+.pg a:hover {
+  color:rgb(230, 12, 12);
+}
+..pg a:active {
+  color:rgb(218, 11, 11);
+}
